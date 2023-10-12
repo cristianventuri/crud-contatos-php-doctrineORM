@@ -1,0 +1,22 @@
+{
+    "name": "cristian/crud-doctrine",
+    "description": "Teste para vaga de Desenvolvedor Back-end no Magazord.com.br",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cristian\\CrudDoctrine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cristianventuri",
+            "email": "cristianventuri@outlook.com.br"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "*",
+        "symfony/cache": "^6.3",
+        "doctrine/annotations": "^2.0"
+    }
+}
