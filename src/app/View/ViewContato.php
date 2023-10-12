@@ -53,7 +53,6 @@ class ViewContato extends ViewBase{
             <label for="descricaoContato" class="form-label">Descrição:</label>
             <input type="text" class="form-control" id="descricaoContato" aria-describedby="descricaoContato" name="descricao" required>
           </div>
-          <button type="submit" class="btn btn-danger" onclick="ViewContato.cancelaAlteracao()">Cancelar</button>
           <button type="submit" class="btn btn-success">Salvar</button>
         </form>
       </div>
